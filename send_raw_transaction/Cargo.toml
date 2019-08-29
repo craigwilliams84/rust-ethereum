@@ -1,0 +1,13 @@
+[package]
+name = "send_raw_transaction"
+version = "0.1.0"
+authors = ["Craig <craigwilliams84@googlemail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+web3 = { git = "https://github.com/tomusdrw/rust-web3" }
+ethereum-types = "0.4"
+ethereum-tx-sign = "0.0.2"
+hex = "0.3.1"
